@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>IMG_7809.jpg</filename>
+	<path>/home/anshm/Documents/Realsense/dataset/IMG_7809.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>838</xmin>
+			<ymin>1068</ymin>
+			<xmax>1942</xmax>
+			<ymax>3010</ymax>
+		</bndbox>
+	</object>
+</annotation>

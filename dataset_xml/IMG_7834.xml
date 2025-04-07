@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>IMG_7834.jpg</filename>
+	<path>/home/anshm/Documents/Realsense/dataset/IMG_7834.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>house</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>746</xmin>
+			<ymin>1795</ymin>
+			<xmax>2092</xmax>
+			<ymax>2718</ymax>
+		</bndbox>
+	</object>
+</annotation>

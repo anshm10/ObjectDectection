@@ -16,11 +16,11 @@ cfg.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30)
 
 pipe.start(cfg)
 
-model = YOLO("runs/detect/train7/weights/best.pt")
+model = YOLO("runs/detect/train6/weights/best.pt")
 
 def detect_objects(frame):
     """Run YOLO object detection."""
-    results = model(frame, conf=0.8)
+    results = model(frame, conf=0.5)
     return results
 
 # def detect_lines(gray_frame):
